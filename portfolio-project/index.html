@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Raju Maurya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Raju Maurya</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="mode-toggle">🌙</button>
+    </header>
+
+    <section id="about">
+        <h2>Hi, I'm <span class="typing"></span></h2>
+        <p>Java Full Stack Developer passionate about building scalable web applications.</p>
+        <a href="resume.pdf" class="resume-btn" download>📄 Download Resume</a>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Java, Spring Boot, Hibernate, SQL, HTML, CSS, JavaScript, React, Git</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Billing Management System</h3>
+            <p>Automated invoicing and real-time payment tracking.</p>
+        </div>
+        <div class="project">
+            <h3>Task Management System</h3>
+            <p>Web app for managing tasks with priorities and deadlines.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Contributing to open source & coding forums.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-status"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
